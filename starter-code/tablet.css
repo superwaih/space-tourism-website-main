@@ -1,0 +1,155 @@
+@media screen and (max-width: 1200px){
+    body{
+        background-image: url(./assets/home/background-home-tablet.jpg);
+        height: 120vh;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        top: 20%;
+    }
+    .hero-texts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .explore{
+        left: 250px;
+        top: 150px;
+
+    }
+    .explore h3{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 37px;
+        letter-spacing: 2px;
+        color: #0B0D17;
+        text-transform: uppercase;
+    }
+    
+    .space-text{
+        font-size: 150px;
+    }
+    /* Destination Tablet Styling */
+    .destination-body{
+        background-image: url(./assets/destination/background-destination-tablet.jpg);
+        background-size: cover;
+        height: 100vh;
+    }
+    .dst-tab{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        top: 30%;
+        left: 0%;
+    }
+    .dst-links{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .planet-details{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dash-dst{
+        top: 49%;
+    }
+    .destination-text img{
+        width: 300px;
+        height: 300px;      
+    }
+    .planet-name{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .dst-select{
+        width: 400px;
+    }
+    .planet-info{
+        font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #D0D6F9;
+    margin-top: 0px;
+    }
+    .carousel__item--selected {
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 150px;
+        text-align: center;
+    }
+    .crew-image img{
+        width: 333.09px;
+        height: 332px;
+        background: url(Image.png);
+        position: initial;
+    }
+    .crew-detail h1, .crew-detail h2, .crew-detail p{
+        position: initial;
+    }
+    .crew-detail h1{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 20px;
+        /* identical to box height */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        width: auto;
+    }
+    .crew-detail h2{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    color: #FFFFFF;
+    }
+    .crew-detail{
+        margin-bottom: 40px;
+    }
+    .crew-detail p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #D0D6F9;
+    /* width: auto; */
+    }
+    .carousel__nav{
+        width: 50%;
+        top: 200px;
+        right: 180px;
+    }
+    .carousel__button{
+        width: 10px;
+    }
+    .menu-btn{
+        z-index: 9999;
+        cursor: pointer;
+    }
+    /* Technology Tablet Styling */
+   
+
+}

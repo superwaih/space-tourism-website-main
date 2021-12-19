@@ -1,0 +1,239 @@
+@media  screen and (max-width: 768px) {
+    nav{
+        /* width: 420px; */
+    }
+    .navbar{
+        backdrop-filter: none;
+    }
+   .navlinks{
+       position: absolute;
+       right: -320px;
+       /* top: 50%; */
+       display: flex;
+       flex-direction: column;
+        height: 100vh;
+        color: #fff;
+       z-index: 999;
+        
+        backdrop-filter: blur(81.5485px);
+        padding-top: 100px;
+        left: -1000%;
+       width: 300px;
+   }
+   .navlinks.active{
+        left: 100px;
+        
+   }
+   .navlink{
+     /* display: flex; */
+      
+   }
+   .menu-btn{
+    display: block;
+    }
+    .travel-text h1{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    }
+    .space-text h2{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 80px;
+        line-height: 100px;
+        text-align: center;
+        color: #FFFFFF;
+
+    }
+    .space-para{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    color: #D0D6F9;
+    }
+    .explore{
+        width: 150px;
+        height: 150px;
+        left: 90px;
+        top: 90px;
+    }
+    .explore h3{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 1.25px;
+    color: #0B0D17;
+    }
+    /* DESTINATION TAB STYLING */
+    .dash-dst{
+        top: 35%;
+    }
+    .dst-select h1{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    /* text-align: center; */
+    }
+    .destination-text img{
+        width: 170px;
+        height: 170px;
+    }
+    .dst-links{
+        margin-left: 50px;
+    }
+    .dst-link{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 2.3625px;
+    color: #FFFFFF;
+    }
+    .planet-name{
+        font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .planet-info{
+        font-family: Barlow;
+        font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    height: 125px;
+/* or 167% */
+
+    text-align: center;
+    color: #D0D6F9;
+    }
+    .travel-details{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .travel-details h3{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+    color: #D0D6F9
+    }
+    .travel-details p{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 52px;
+    }
+    .travel-time h3{
+        font-family: Barlow Condensed;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        letter-spacing: 2.3625px;
+        text-transform: uppercase; 
+        color: #D0D6F9; 
+        height: 17px;
+    }
+    .travel-time p{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 28px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        height: 32px;
+        color: #FFFFFF; 
+    }
+    .dst-hr{
+        margin-top: 30px;
+    }
+    .moon{
+        height: 150px;
+    }
+    /* Crew Page styling */
+    .carousel__item{
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .crew-image img{
+        width: 327px;
+        height: 223px;
+       
+    }
+    .crew-detail h1{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 30px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+        margin-top: 50px;
+        
+    }
+    .crew-detail h2{
+        font-family: Bellefair;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        
+    }
+    .crew-detail p{
+        font-family: Barlow;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        height: 100px;
+        line-height: 25px;
+        text-align: center;
+        color: #D0D6F9;
+        width: 350px;
+
+    }
+    .carousel__nav{
+        width: 50%;
+        top: 220px;
+        right: 110px;
+    }
+    /* Technology Page Styling */
+    
+
+}
+

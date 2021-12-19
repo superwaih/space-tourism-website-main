@@ -1,0 +1,257 @@
+.tech-body{
+    background-image: url(./assets/technology/background-technology-desktop.jpg);
+    background-size: cover;
+  }
+  
+.carousel{
+    display: flex;
+    position: absolute;
+    color: antiquewhite;
+    top: 40%;
+    left: 10%;
+    width: 90%;
+    margin: auto;
+    
+}
+.tech-img, .vechicle-details{
+    flex: 1;
+}
+.tech-img img{
+    position: absolute;
+    width: 615px;
+    height: 627px;
+    left: 825px;
+    top: 2px
+}
+.vechicle-details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.vechicle-details h3{
+    height: 19px;
+    text-transform: uppercase;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    
+    color: #D0D6F9;
+  }
+  .vechicle-details h4{
+    height: 64px;
+    text-transform: uppercase;
+    font-family: Bellefair; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+
+    color: #FFFFFF;
+
+  }
+  .vechicle-details p{
+    height: 192px;
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    width: 40%;
+    /* or 178% */
+    color: #D0D6F9;
+    
+  }
+  .carousel__item{
+      display: flex;
+      display: none;
+  }
+
+  /* Technology Carousel Styling */
+  .carousel__item--selected {
+    display: block;
+  }
+  .carousel__nav{
+    width: 80%;
+    padding: 20px 0;
+    position: absolute;
+    right: 690px;
+    top: 320px;
+    text-align: center;
+  }
+  .carousel__button{
+    width: 32px;
+    height: 15px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  .carousel__button--selected {
+    background: #f3eded;
+  }
+  /* Technology Responsive Styling */
+  @media screen and (max-width: 1200px){
+    body{
+      background-image: url(./assets/technology/background-technology-tablet.jpg);
+      background-size: cover;
+    }
+    .tech-img img{
+      position: initial;
+      width: 668px;
+      height: 310px
+  }
+  
+  .carousel__item--selected{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .carousel__nav{
+    width: 210px;
+    height: 60px;
+    right: 300px; 
+  }
+  .carousel__button{
+    width: 60px;
+    height: 60px;
+    
+  }
+  .vechicle-details{
+    gap: 10px;
+  }
+  .vechicle-details h3{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    margin-top: 90px;
+  }
+  .vechicle-details h4{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .vechicle-details p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #D0D6F9;
+    height: 16px;
+    width: 60%;
+    margin-left: 150px;
+  }
+  .carousel{
+    top: 30%;
+  }
+
+  }
+  @media  screen and (max-width: 768px){
+    nav{
+      /* width: 420px; */
+    }
+  .navbar{
+      backdrop-filter: none;
+  }
+ .navlinks{
+     position: absolute;
+     right: -320px;
+     /* top: 50%; */
+     display: flex;
+     flex-direction: column;
+      height: 100vh;
+      color: #fff;
+     z-index: 999;
+      
+      backdrop-filter: blur(81.5485px);
+      padding-top: 100px;
+      left: -1000%;
+     width: 300px;
+     transition: all ease 0.3s;
+ }
+ .navlinks.active{
+      left: 100px;
+      
+ }
+  .menu-btn{
+        display: block;
+        z-index: 9999;
+        cursor: pointer;
+    }
+    .tech-img img{
+      width: 375px;
+      height: 170px;
+     }
+     .dst-select h1{
+       font-family: Barlow Condensed;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      height: 17px;
+      line-height: 19px;
+      letter-spacing: 2.7px;
+      text-transform: uppercase;
+      
+      color: #FFFFFF;
+      }
+  .carousel__nav{
+    width: 210px;
+    height: 60px;
+    right: 40px;
+    top: 170px;
+  }
+  .vechicle-details h4{
+    font-family: Bellefair;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .vechicle-details h3{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 2.3625px;
+    
+    color: #D0D6F9
+
+  }
+  .vechicle-details p{
+    font-family: Barlow;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+    
+    text-align: center;
+    
+    color: #D0D6F9;
+    height: 175px;
+    width: 350px;
+    margin-left: 0;
+  }
+}
